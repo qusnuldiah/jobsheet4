@@ -1,0 +1,41 @@
+Pseudocode Sistem Mesin ATM
+Algoritma: sistemMesinATM
+
+Deklarasi:
+1. Saldo Awal = 1000000.0 : double
+2. menu (1/2/3/4): int
+   1.cek saldo
+   2.tarik tunai
+   3.setor tunai
+   4.keluar
+
+Deskripsi:
+1. print "Menu"
+2. print "1. Cek Saldo"
+3. print "2. Tarik Tunai"
+4. print "3. Setor Tunai"
+5. print "4. Keluar"
+6. print "Pilih menu (1/2/3/4): "
+7. read pilihan
+8. Kasus 1:
+print "saldo anda saat ini: " +saldo awal
+read break
+9. Kasus 2:
+print "masukan jumlah penarikan: "
+read tarik tunai
+if tarik tunai>saldo
+print "saldo tidak mencukupi"
+else saldo-=tarikan
+print "penarikan berhasil, saldo anda sekarang: " +saldo awal
+read break
+10. kasus 3
+print "Masukan jumlah setoran: "
+read setor tunai
+compute saldo awal += setoran
+print "setoran berhasil, saldo anda sekarang: " +saldo awal
+read break
+11. kasus 4
+print "terima kasih telah menggunakan ATM. Sampai jumpa!"
+read keluar
+12. if pilihan except (1/2/3/4)
+print "pilihan tidak vallid. Silahkan pilih menu yang benar"

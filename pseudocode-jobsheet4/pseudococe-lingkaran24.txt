@@ -1,0 +1,13 @@
+Algoritma: Lingkaran24
+
+Deklarasi:
+r : int
+phi, keliling, luas : double
+
+Deskripsi:
+1. print “masukkan jari-jari lingkaran!”
+2. read r
+3. keliling = 2 * phi * r
+4. luas = phi  * r * r
+7. print keliling
+8. print luas

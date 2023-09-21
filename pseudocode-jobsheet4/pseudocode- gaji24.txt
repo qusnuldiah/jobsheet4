@@ -1,0 +1,17 @@
+Algoritma: Gaji24
+
+Deklarasi:
+JmlMasuk, JmlTdkMasuk, gaji, potGaji, totGaji : int
+
+Deskripsi:
+1. print “Masukkan jumlah hari masuk kerja”
+2. read JmlMasuk
+3. print “Masukkan jumlah hari tidak masuk kerja”
+4. read JmlTdkMasuk
+5. print “Masukkan gaji”
+6. read gaji
+7. print “Masukkan potongan gaji”
+8. read potGaji
+9. totGaji = (JmlMasuk * gaji ) – (JmlTdkMasuk * potGaji)
+10. print totGaji
+
